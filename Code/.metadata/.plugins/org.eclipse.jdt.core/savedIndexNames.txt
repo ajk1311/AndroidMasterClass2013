@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/akausejr/Desktop/AndroidMasterClass2013/Code/.metadata/.plugins/org.eclipse.jdt.core
+1416247644.index
+3927879410.index
+2065051769.index

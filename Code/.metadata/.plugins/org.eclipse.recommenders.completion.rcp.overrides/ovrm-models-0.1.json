@@ -1,0 +1,7 @@
+{
+  "/Users/akausejr/Desktop/AndroidSDK/platforms/android-18/android.jar": {
+    "location": "/Users/akausejr/Desktop/AndroidSDK/platforms/android-18/android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/akausejr/Desktop/AndroidSDK/platforms/android-18/android.jar\u0027. Neither fingerprint \u002727195b1f36b15d98b2a5f7b29789ba60e05c2ba3\u0027 nor symbolic name \u0027android\u0027 are known."
+  }
+}
