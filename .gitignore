@@ -18,6 +18,8 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.metadata
+.settings
 
 # My private dir for class dmeos
 Workspace/
