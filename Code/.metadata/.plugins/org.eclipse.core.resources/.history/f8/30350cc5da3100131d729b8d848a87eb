@@ -1,7 +1,0 @@
-package edu.umich.amc.helloworld.activity;
-
-import android.app.Activity;
-
-public class HelloWorldActivity extends Activity {
-
-}
