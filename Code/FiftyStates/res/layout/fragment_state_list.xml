@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	Our layout can simply contain a list. In this case, the list will never be empy,
+	so we don't need a View for an empty list. In other apps that have dynamically
+	created list content, an empty View would be almost necessary. We'll see an example
+	of that later on in the course.
+ -->
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

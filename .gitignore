@@ -23,3 +23,7 @@ local.properties
 
 # My private dir for class dmeos
 Workspace/
+
+# Mac spotlight files
+.DS_Store
+
