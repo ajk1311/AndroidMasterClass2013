@@ -4,5 +4,6 @@
     <string name="app_name">FiftyStates</string>
     <string name="msg_prefix">The state capital of</string>
     <string name="is">is</string>
+    <string name="dialog_done">Done</string>
 
 </resources>

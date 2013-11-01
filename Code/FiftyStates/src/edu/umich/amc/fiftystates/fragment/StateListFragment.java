@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-import android.widget.Toast;
 import edu.umich.amc.fiftystates.R;
 import edu.umich.amc.fiftystates.adapter.StateListAdapter;
 import edu.umich.amc.fiftystates.adapter.StateListAdapter.StateData;
@@ -68,7 +67,8 @@ public class StateListFragment extends Fragment implements OnItemClickListener {
 	}
 	
 	private void showStateDialog(String state, String capital) {
-		// For now, we just show a little Toast message. We will go over dialogs next time, so we can show a dialog then.
-		Toast.makeText(getActivity(), getString(R.string.msg_prefix) + " " + state + " " + getString(R.string.is) + " " + capital + ".", Toast.LENGTH_LONG).show();
-	}
+		// Create a dialog and tell the fragment manager to show it
+		CapitalDialogFragment dialog = CapitalDialogFragment.create(state, capital);
+		dialog.show(getFragmentManager(), null);
+	}	
 }
